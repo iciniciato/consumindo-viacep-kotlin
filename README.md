@@ -17,7 +17,6 @@ Criar um endpoint que consome a API viacep (https://viacep.com.br/) e retorna as
 <h3><b>Tecnologias utilizadas:</b></h3>
 <UL>
   <LI><b>SpringFramework(Web):</b> Ferramenta facilitadora de configuração de projetos.</LI>
-  <LI><b>Lombok:</b> Ferramenta que tem por principal objetivo diminuir a verbosidade do código.</LI> 
   <LI><b>Gradle:</b> Ferramenta de gerenciamento de dependências e automatização de builds, utiliza o ANT e o Maven.</LI>
   <LI><b>Postman:</b> Ferramenta para teste de API's que utilizam o padrão REST.</LI>
   <LI><b>Feign:</b> Projeto que está dentro do Spring Cloud, utilizado para integração e consumo de serviços REST, que visa simplificar a comunicação entre as API's.</LI>
