@@ -9,7 +9,12 @@ import org.springframework.web.bind.annotation.RestController
 @RestController
 class Cep (val cepService : CepService) {
 
-    @GetMapping("/cep/{cep}")
+    companion object {
+        const val URL = "/cep/"
+    }
+
+
+    @GetMapping("$URL{cep}")
     fun getCep(@PathVariable cep: Int): ResponseEntity<*>? {
         return ResponseEntity.ok().body(cepService.getCep(cep))
     }

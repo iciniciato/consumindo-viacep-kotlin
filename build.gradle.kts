@@ -30,6 +30,8 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	implementation("org.springframework.cloud:spring-cloud-starter-openfeign")
+	implementation("junit:junit:4.12")
+	testImplementation ("org.junit.jupiter:junit-jupiter-api:5.6.0")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
